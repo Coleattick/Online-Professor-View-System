@@ -2,7 +2,7 @@
 const loginForm = document.getElementById("login-form");
 const registerForm = document.getElementById("register-form");
 const showRegisterButton = document.getElementById("show-register");
-const loginButton = document.getElementById("login-button");
+const loginButton = document.getElementById("login");
 const registerButton = document.getElementById("register-button");
 
 // Initially, hide the registration form
@@ -24,6 +24,7 @@ loginButton.addEventListener("click", () => {
 loginButton.addEventListener("click", () => {
     const loginEmail = document.getElementById("login-email").value;
     const loginPassword = document.getElementById("login-password").value;
+    window.location.href = "homepage.html";
     // Add your login logic here
 });
 
@@ -31,5 +32,13 @@ registerButton.addEventListener("click", () => {
     const registerEmail = document.getElementById("register-email").value;
     const registerUsername = document.getElementById("register-username").value;
     const registerPassword = document.getElementById("register-password").value;
+    window.location.href = "homepage.html";
     // Add your registration logic here
 });
+
+// Existing code in script.js
+
+// Your other JavaScript functions and code
+
+// Simulate a user being logged in
+
